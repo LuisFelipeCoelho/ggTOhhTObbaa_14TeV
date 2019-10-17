@@ -1,0 +1,115 @@
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootTreeReader.h
+   requested to autoload type ExRootTreeReader
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootTreeWriter.h
+   requested to autoload type ExRootTreeWriter
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootTreeBranch.h
+   requested to autoload type ExRootTreeBranch
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootResult.h
+   requested to autoload type ExRootResult
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootClassifier.h
+   requested to autoload type ExRootClassifier
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootFilter.h
+   requested to autoload type ExRootFilter
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootProgressBar.h
+   requested to autoload type ExRootProgressBar
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootConfReader.h
+   requested to autoload type ExRootConfParam
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootConfReader.h
+   requested to autoload type ExRootConfReader
+Error in cling::AutoloadingVisitor::InsertIntoAutoloadingState:
+   Missing FileEntry for ExRootAnalysis/ExRootTask.h
+   requested to autoload type ExRootTask
+** INFO: adding module        ParticlePropagator       ParticlePropagator       
+** INFO: adding module        Efficiency               ChargedHadronTrackingEfficiency
+** INFO: adding module        Efficiency               ElectronTrackingEfficiency
+** INFO: adding module        Efficiency               MuonTrackingEfficiency   
+** INFO: adding module        MomentumSmearing         ChargedHadronMomentumSmearing
+** INFO: adding module        MomentumSmearing         ElectronMomentumSmearing 
+** INFO: adding module        MomentumSmearing         MuonMomentumSmearing     
+** INFO: adding module        Merger                   TrackMerger              
+** INFO: adding module        SimpleCalorimeter        ECal                     
+** INFO: adding module        SimpleCalorimeter        HCal                     
+** INFO: adding module        PdgCodeFilter            ElectronFilter           
+** INFO: adding module        PdgCodeFilter            ChargedHadronFilter      
+** INFO: adding module        Merger                   Calorimeter              
+** INFO: adding module        Merger                   EFlowMerger              
+** INFO: adding module        PdgCodeFilter            EFlowFilter              
+** INFO: adding module        Efficiency               PhotonEfficiency         
+** INFO: adding module        Isolation                PhotonIsolation          
+** INFO: adding module        Efficiency               ElectronEfficiency       
+** INFO: adding module        Isolation                ElectronIsolation        
+** INFO: adding module        Efficiency               MuonEfficiency           
+** INFO: adding module        Isolation                MuonIsolation            
+** INFO: adding module        Merger                   MissingET                
+** INFO: adding module        Merger                   ScalarHT                 
+** INFO: adding module        PdgCodeFilter            NeutrinoFilter           
+** INFO: adding module        FastJetFinder            GenJetFinder             
+** INFO: adding module        Merger                   GenMissingET             
+** INFO: adding module        FastJetFinder            FastJetFinder            
+** INFO: adding module        FastJetFinder            FatJetFinder             
+** INFO: adding module        EnergyScale              JetEnergyScale           
+** INFO: adding module        JetFlavorAssociation     JetFlavorAssociation     
+** INFO: adding module        BTagging                 BTagging                 
+** INFO: adding module        TauTagging               TauTagging               
+** INFO: adding module        UniqueObjectFinder       UniqueObjectFinder       
+** INFO: adding module        TreeWriter               TreeWriter               
+** INFO: initializing module  Delphes                  
+** INFO: initializing module  ParticlePropagator       
+** INFO: initializing module  ChargedHadronTrackingEfficiency
+** INFO: initializing module  ElectronTrackingEfficiency
+** INFO: initializing module  MuonTrackingEfficiency   
+** INFO: initializing module  ChargedHadronMomentumSmearing
+** INFO: initializing module  ElectronMomentumSmearing 
+** INFO: initializing module  MuonMomentumSmearing     
+** INFO: initializing module  TrackMerger              
+** INFO: initializing module  ECal                     
+** INFO: initializing module  HCal                     
+** INFO: initializing module  Calorimeter              
+** INFO: initializing module  EFlowMerger              
+** INFO: initializing module  EFlowFilter              
+** INFO: initializing module  PhotonEfficiency         
+** INFO: initializing module  PhotonIsolation          
+** INFO: initializing module  ElectronFilter           
+** INFO: initializing module  ElectronEfficiency       
+** INFO: initializing module  ElectronIsolation        
+** INFO: initializing module  ChargedHadronFilter      
+** INFO: initializing module  MuonEfficiency           
+** INFO: initializing module  MuonIsolation            
+** INFO: initializing module  MissingET                
+** INFO: initializing module  NeutrinoFilter           
+** INFO: initializing module  GenJetFinder             
+#--------------------------------------------------------------------------
+#                         FastJet release 3.3.2
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+** INFO: initializing module  GenMissingET             
+** INFO: initializing module  FastJetFinder            
+** INFO: initializing module  FatJetFinder             
+** INFO: initializing module  JetEnergyScale           
+** INFO: initializing module  JetFlavorAssociation     
+** INFO: initializing module  BTagging                 
+** INFO: initializing module  TauTagging               
+** INFO: initializing module  UniqueObjectFinder       
+** INFO: initializing module  ScalarHT                 
+** INFO: initializing module  TreeWriter               
+** Reading /home/luis/Documents/Programas/MG5_aMC_v2_6_6/ggTOhhTObbaa_triangulo_14TeV/Events/pythia_events.hep
+** [----------------------------------------------------------------] (0.00%)** [#---------------------------------------------------------------] (1.79%)** [##--------------------------------------------------------------] (3.33%)** [###-------------------------------------------------------------] (4.75%)** [####------------------------------------------------------------] (6.31%)** [#####-----------------------------------------------------------] (7.86%)** [######----------------------------------------------------------] (9.59%)** [#######---------------------------------------------------------] (11.14%)** [########--------------------------------------------------------] (12.91%)** [#########-------------------------------------------------------] (14.26%)** [##########------------------------------------------------------] (15.73%)** [###########-----------------------------------------------------] (17.37%)** [############----------------------------------------------------] (18.98%)** [#############---------------------------------------------------] (20.47%)** [##############--------------------------------------------------] (21.93%)** [###############-------------------------------------------------] (23.60%)** [################------------------------------------------------] (25.42%)** [#################-----------------------------------------------] (26.82%)** [##################----------------------------------------------] (28.46%)** [###################---------------------------------------------] (29.72%)** [####################--------------------------------------------] (31.48%)** [#####################-------------------------------------------] (32.83%)** [######################------------------------------------------] (34.70%)** [#######################-----------------------------------------] (36.06%)** [########################----------------------------------------] (37.83%)** [#########################---------------------------------------] (39.23%)** [##########################--------------------------------------] (40.98%)** [###########################-------------------------------------] (42.41%)** [############################------------------------------------] (43.82%)** [#############################-----------------------------------] (45.34%)** [##############################----------------------------------] (47.06%)** [###############################---------------------------------] (48.45%)** [################################--------------------------------] (50.32%)** [#################################-------------------------------] (52.01%)** [##################################------------------------------] (53.39%)** [###################################-----------------------------] (54.78%)** [####################################----------------------------] (56.60%)** [#####################################---------------------------] (58.22%)** [######################################--------------------------] (59.49%)** [#######################################-------------------------] (60.96%)** [########################################------------------------] (62.85%)** [#########################################-----------------------] (64.23%)** [##########################################----------------------] (66.06%)** [###########################################---------------------] (67.38%)** [############################################--------------------] (69.15%)** [#############################################-------------------] (70.78%)** [##############################################------------------] (72.05%)** [###############################################-----------------] (73.79%)** [################################################----------------] (75.18%)** [#################################################---------------] (76.63%)** [##################################################--------------] (78.51%)** [###################################################-------------] (79.96%)** [####################################################------------] (81.32%)** [#####################################################-----------] (82.92%)** [######################################################----------] (84.41%)** [#######################################################---------] (86.20%)** [########################################################--------] (87.51%)** [#########################################################-------] (89.17%)** [##########################################################------] (91.03%)** [###########################################################-----] (92.37%)** [############################################################----] (93.91%)** [#############################################################---] (95.56%)** [##############################################################--] (97.07%)** [###############################################################-] (98.46%)** [################################################################] (100.00%)
+** Exiting...
